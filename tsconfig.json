@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "target": "es2022", // Node 21 supports features up to ES2022 comfortably
+    "module": "commonjs", // Node.js uses CommonJS, but you can also explore using "ESNext" for ESM
+    "lib": ["ESNext"], // Use the latest features
+    "outDir": "./dist",
+    "rootDir": "./src",
+    // "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "moduleResolution": "node", // Ensure Node.js module resolution strategy
+    "allowSyntheticDefaultImports": true, // Allow default imports from modules with no default export
+    "experimentalDecorators": true, // If you're using decorators
+    "emitDecoratorMetadata": true // If you're using decorators and need reflection metadata
+  },
+  "include": ["src/**/*.ts"],
+  "exclude": ["node_modules", "dist"]
+}

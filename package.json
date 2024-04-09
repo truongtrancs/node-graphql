@@ -1,0 +1,36 @@
+{
+  "name": "node-graphql",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node dist/index.js",
+    "dev": "nodemon src/index.ts",
+    "build": "tsc"
+  },
+  "keywords": [],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/truongtrancs/node-graphql.git"
+  },
+  "bugs": {
+    "url": "https://github.com/truongtrancs/node-graphql/issues"
+  },
+  "homepage": "https://github.com/truongtrancs/node-graphql#readme",
+  "author": "Truong Tran <truongtran.cs@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "apollo-server": "^3.13.0",
+    "express": "^4.19.2",
+    "graphql": "^16.8.1"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.21",
+    "@types/graphql": "^14.5.0",
+    "@types/node": "^20.12.6",
+    "nodemon": "^3.1.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.4"
+  }
+}
